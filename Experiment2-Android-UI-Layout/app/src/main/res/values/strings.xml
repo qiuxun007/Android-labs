@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Experiment2</string>
+
+    <!-- LinearLayout 实验 -->
+    <string name="cell_one_one">One,One</string>
+    <string name="cell_one_two">One,Two</string>
+    <string name="cell_one_three">One,Three</string>
+    <string name="cell_one_four">One,Four</string>
+    <string name="cell_two_one">Two,One</string>
+    <string name="cell_two_two">Two,Two</string>
+    <string name="cell_two_three">Two,Three</string>
+    <string name="cell_two_four">Two,Four</string>
+    <string name="cell_three_one">Three,One</string>
+    <string name="cell_three_two">Three,Two</string>
+    <string name="cell_three_three">Three,Three</string>
+    <string name="cell_three_four">Three,Four</string>
+    <string name="cell_four_one">Four,One</string>
+    <string name="cell_four_two">Four,Two</string>
+    <string name="cell_four_three">Four,Three</string>
+    <string name="cell_four_four">Four,Four</string>
+
+    <!-- ConstraintLayout 实验 1 -->
+    <string name="calc_title">ConstraintLayoutTest</string>
+    <string name="calc_input_label">Input</string>
+    <string name="calc_display_default">0.0</string>
+    <string name="calc_7">7</string>
+    <string name="calc_8">8</string>
+    <string name="calc_9">9</string>
+    <string name="calc_div">÷</string>
+    <string name="calc_4">4</string>
+    <string name="calc_5">5</string>
+    <string name="calc_6">6</string>
+    <string name="calc_mul">×</string>
+    <string name="calc_1">1</string>
+    <string name="calc_2">2</string>
+    <string name="calc_3">3</string>
+    <string name="calc_sub">-</string>
+    <string name="calc_dot">.</string>
+    <string name="calc_0">0</string>
+    <string name="calc_eq">=</string>
+    <string name="calc_add">+</string>
+
+    <!-- ConstraintLayout 实验 2 -->
+    <string name="trip_tab_stations">Space Stations</string>
+    <string name="trip_tab_flights">Flights</string>
+    <string name="trip_tab_rovers">Rovers</string>
+    <string name="trip_dca">DCA</string>
+    <string name="trip_mars">MARS</string>
+    <string name="trip_arrow">⇄</string>
+    <string name="trip_one_way">One Way</string>
+    <string name="trip_traveller">1 Traveller</string>
+    <string name="trip_depart">DEPART</string>
+</resources>

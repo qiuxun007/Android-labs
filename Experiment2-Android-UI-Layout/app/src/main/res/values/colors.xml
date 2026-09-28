@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- ConstraintLayout 实验 1 -->
+    <color name="calc_title">#009688</color>
+    <color name="calc_display_bg">#C8BFA8</color>
+    <color name="calc_display_text">#333333</color>
+    <color name="calc_label">#666666</color>
+    <color name="calc_button_bg">#E0E0E0</color>
+
+    <!-- ConstraintLayout 实验 2 -->
+    <color name="trip_tab_bar">#FFFFFF</color>
+    <color name="trip_tab_text">#333333</color>
+    <color name="trip_green">#2E7D32</color>
+    <color name="trip_orange">#E65100</color>
+    <color name="trip_white">#FFFFFF</color>
+    <color name="trip_gray">#EEEEEE</color>
+</resources>

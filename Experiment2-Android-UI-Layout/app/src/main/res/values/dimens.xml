@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LinearLayout 实验 -->
+    <dimen name="grid_padding">4dp</dimen>
+    <dimen name="grid_margin">3dp</dimen>
+    <dimen name="grid_text_size">16sp</dimen>
+
+    <!-- ConstraintLayout 实验 1（计算器） -->
+    <dimen name="calc_title_height">56dp</dimen>
+    <dimen name="calc_display_height">48dp</dimen>
+    <dimen name="calc_button_height">48dp</dimen>
+    <dimen name="calc_margin">8dp</dimen>
+    <dimen name="calc_padding">16dp</dimen>
+    <dimen name="calc_text_size">16sp</dimen>
+    <dimen name="calc_title_text_size">18sp</dimen>
+    <dimen name="calc_display_text_size">20sp</dimen>
+
+    <!-- ConstraintLayout 实验 2（旅行界面） -->
+    <dimen name="trip_tab_height">64dp</dimen>
+    <dimen name="trip_bar_height">40dp</dimen>
+    <dimen name="trip_depart_height">56dp</dimen>
+    <dimen name="trip_padding">16dp</dimen>
+    <dimen name="trip_text_size">14sp</dimen>
+</resources>

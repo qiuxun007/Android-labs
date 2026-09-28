@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:stretchColumns="1">
+
+    <!-- 标题行：灰色背景，横跨两列 -->
+    <TableRow android:background="#888888">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Hello TableLayout"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_span="2" />
+    </TableRow>
+
+    <!-- Open... 行 -->
+    <TableRow>
+
+        <TextView
+            style="@style/MenuItem"
+            android:text="Open..." />
+
+        <TextView
+            style="@style/MenuShortcut"
+            android:text="Ctrl-O" />
+    </TableRow>
+
+    <!-- Save... 行 -->
+    <TableRow>
+
+        <TextView
+            style="@style/MenuItem"
+            android:text="Save..." />
+
+        <TextView
+            style="@style/MenuShortcut"
+            android:text="Ctrl-S" />
+    </TableRow>
+
+    <!-- Save As... 行 -->
+    <TableRow>
+
+        <TextView
+            style="@style/MenuItem"
+            android:text="Save As..." />
+
+        <TextView
+            style="@style/MenuShortcut"
+            android:text="Ctrl-Shift-S" />
+    </TableRow>
+
+    <!-- 分隔行：横跨两列，只画一条线 -->
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#444444"
+            android:layout_span="2" />
+    </TableRow>
+
+    <!-- X Import... 行 -->
+    <TableRow>
+
+        <TextView
+            style="@style/MenuItem"
+            android:text="X Import..." />
+
+        <TextView
+            style="@style/MenuShortcut"
+            android:text="" />
+    </TableRow>
+
+    <!-- X Export... 行 -->
+    <TableRow>
+
+        <TextView
+            style="@style/MenuItem"
+            android:text="X Export..." />
+
+        <TextView
+            style="@style/MenuShortcut"
+            android:text="Ctrl-E" />
+    </TableRow>
+
+    <!-- 分隔行 -->
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#444444"
+            android:layout_span="2" />
+    </TableRow>
+
+    <!-- Quit 行 -->
+    <TableRow>
+
+        <TextView
+            style="@style/MenuItem"
+            android:text="Quit" />
+
+        <TextView
+            style="@style/MenuShortcut"
+            android:layout_height="match_parent"
+            android:text="" />
+    </TableRow>
+
+</TableLayout>
